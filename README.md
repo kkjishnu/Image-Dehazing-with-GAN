@@ -8,12 +8,13 @@ wget -O data.mat http://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_
 python3 extract.py
 ```
 Split the dataset into train and test and place them in a folder 
-
-├── datasets                   
-    |   ├── Haze2Dehaze        
-    |   |   ├── train              # Training
-    |   |   |   ├── A              
-    |   |   |   └── B              
-    |   |   └── test               # Testing
-    |   |   |   ├── A              
-    |   |   |   └── B              
+```
+    |─ datasets                   
+    |   |─ Haze2Dehaze        
+    |   |   |─ train              # Training
+    |   |   |   |─ A              
+    |   |   |   |─ B              
+    |   |   |─ test               # Testing
+    |   |   |   |─ A              
+    |   |   |   |─ B              
+```    
